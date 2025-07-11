@@ -15,7 +15,7 @@
   height: 163px;
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 20px;
   transform: translate(0, -50%);
@@ -34,6 +34,12 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
+  background-color: #e2e2e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigationItems {
   background-color: #e2e2e2;
 }
 </style>

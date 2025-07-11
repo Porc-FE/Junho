@@ -15,8 +15,8 @@
   padding: 9px;
   background-color: #efefef;
   border-radius: 30px;
-  position: absolute;
-  bottom: 10px;
+  position: fixed;
+  bottom: 0;
   transform: translate(-50%, -50%);
   left: 50%;
 }

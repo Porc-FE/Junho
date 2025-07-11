@@ -6,7 +6,7 @@
 .connect {
   width: 82px;
   height: 82px;
-  position: absolute;
+  position: fixed;
   border-radius: 50%;
   bottom: 20px;
   right: 20px;
