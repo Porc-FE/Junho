@@ -1,6 +1,10 @@
-<script setup></script>
+<script setup>
+const { toggleModal } = defineProps({
+  toggleModal: Function,
+})
+</script>
 <template>
-  <div class="connect"><button>connect</button></div>
+  <div @click="toggleModal" class="connect"><button>connect</button></div>
 </template>
 <style scoped>
 .connect {
