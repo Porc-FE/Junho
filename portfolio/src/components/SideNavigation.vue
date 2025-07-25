@@ -5,14 +5,13 @@
       <div class="navigationItems"></div>
       <div class="navigationItems"></div>
       <div class="navigationItems"></div>
-      <div class="navigationItems"></div>
     </div>
   </div>
 </template>
 <style scoped>
 .navigationContainer {
   width: 26px;
-  height: 163px;
+  height: 120px;
   display: flex;
   justify-content: center;
   position: fixed;

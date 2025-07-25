@@ -69,7 +69,11 @@ const { toggleModal, showModal } = defineProps({
 }
 .modalItem:hover {
   z-index: 10;
+<<<<<<< HEAD
   transform: scale(1.04);
+=======
+  transform: scale(1.05);
+>>>>>>> main
   transition: 0.2s linear;
 }
 </style>
